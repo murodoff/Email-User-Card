@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.col-left{
+    width: 25%;
+    float: left;
+    border-right: 1px solid #ddd;
+    position: fixed;
+    height: 100%;
+}
+
+.logo{
+    font-size: 24px;
+    color: #444;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.col-right{
+    width: 74.999%;
+    float: right;
+    
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.col-left li{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 8px 16px;
+    color: #999;
+}
+
+.active li{
+    color: #000;
+}
+
+#drop{
+    padding-left: 1.5rem;
+}
+
+.col-left li:hover{
+    background-color: #555;
+    color: #fff;
+}
+
+#drop{
+    display: none;
+}
+#icon2{
+    display: none;
+}
+
+.main{
+    width: 100%;
+}
+
+.main p{
+    font-size: 32px;
+    padding-left: 4rem;
+}
+
+.bg-image{
+    background-image: url(../w3images/jeans.jpg);
+     background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.bg-text{
+    padding-left: 2rem;
+    top: 0;
+    left: 0;
+}
